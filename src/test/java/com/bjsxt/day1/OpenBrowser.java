@@ -14,8 +14,8 @@ public class OpenBrowser {
     }
     @Test
     public void openChromeBrowser(){
-//        System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\aaron\\.ssh\\workspace\\muke\\WebAutoTest\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver","C:\\Users\\aaron\\.ssh\\workspace\\muke\\WebAutoTest\\drivers\\chromedriver.exe");
         ChromeDriver chromeDriver = new ChromeDriver();
 
     }
